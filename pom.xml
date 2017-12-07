@@ -18,18 +18,20 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.version>0.0.1-SNAPSHOT</project.version>
 		<maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
-		<javaee.version>8.0</javaee.version>
-		<junit.version>4.12</junit.version>
-		<spring.version>5.0.0.RELEASE</spring.version>
-		<jstl.version>1.2</jstl.version>
-		<flyway.version>4.2.0</flyway.version>
-		<logback.classic.version>1.2.3</logback.classic.version>
-		<jcl.over.slf4j.version>1.7.25</jcl.over.slf4j.version>
-		<h2.version>1.4.196</h2.version>
-		<mysql.version>5.1.44</mysql.version>
-		<hibernate.version>5.2.11.Final</hibernate.version>
+		
 		<commons.dbcp2.version>2.1.1</commons.dbcp2.version>
+		<flyway.version>4.2.0</flyway.version>
+		<javaee.version>8.0</javaee.version>
 		<jackson.version>2.9.2</jackson.version>
+		<jcl.over.slf4j.version>1.7.25</jcl.over.slf4j.version>
+		<jsoap.version>1.11.2</jsoap.version>
+		<jstl.version>1.2</jstl.version>
+		<junit.version>4.12</junit.version>
+		<logback.classic.version>1.2.3</logback.classic.version>
+		<h2.version>1.4.196</h2.version>
+		<hibernate.version>5.2.11.Final</hibernate.version>
+		<mysql.version>5.1.44</mysql.version>
+		<spring.version>5.0.0.RELEASE</spring.version>
 	</properties>
 
 	<build>

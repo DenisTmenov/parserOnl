@@ -1,0 +1,78 @@
+CREATE TABLE Brand (
+  id int AUTO_INCREMENT, 
+  name VARCHAR(255) UNIQUE, 
+  
+  CONSTRAINT pk_Brand_id PRIMARY KEY (id)
+) ;
+
+INSERT INTO Brand (`id`, `name`) VALUES (1, 'AEG');
+INSERT INTO Brand (`id`, `name`) VALUES (2, 'Anchor');
+INSERT INTO Brand (`id`, `name`) VALUES (3, 'Black & Decker');
+INSERT INTO Brand (`id`, `name`) VALUES (4, 'Bort');
+INSERT INTO Brand (`id`, `name`) VALUES (5, 'Bosch');
+INSERT INTO Brand (`id`, `name`) VALUES (6, 'Defort');
+INSERT INTO Brand (`id`, `name`) VALUES (7, 'DeWalt');
+INSERT INTO Brand (`id`, `name`) VALUES (8, 'DWT');
+INSERT INTO Brand (`id`, `name`) VALUES (9, 'Edon');
+INSERT INTO Brand (`id`, `name`) VALUES (10, 'Einhell');
+INSERT INTO Brand (`id`, `name`) VALUES (11, 'ELITECH');
+INSERT INTO Brand (`id`, `name`) VALUES (12, 'Engy');
+INSERT INTO Brand (`id`, `name`) VALUES (13, 'Erbauer');
+INSERT INTO Brand (`id`, `name`) VALUES (14, 'Fein');
+INSERT INTO Brand (`id`, `name`) VALUES (15, 'Felisatti');
+INSERT INTO Brand (`id`, `name`) VALUES (16, 'Festool');
+INSERT INTO Brand (`id`, `name`) VALUES (17, 'FORSAGE');
+INSERT INTO Brand (`id`, `name`) VALUES (18, 'Forward');
+INSERT INTO Brand (`id`, `name`) VALUES (19, 'GRAPHITE');
+INSERT INTO Brand (`id`, `name`) VALUES (20, 'Greenworks');
+INSERT INTO Brand (`id`, `name`) VALUES (21, 'Guild');
+INSERT INTO Brand (`id`, `name`) VALUES (22, 'Hammer');
+INSERT INTO Brand (`id`, `name`) VALUES (23, 'Hander');
+INSERT INTO Brand (`id`, `name`) VALUES (24, 'Hitachi');
+INSERT INTO Brand (`id`, `name`) VALUES (25, 'Hyundai');
+INSERT INTO Brand (`id`, `name`) VALUES (26, 'IVT');
+INSERT INTO Brand (`id`, `name`) VALUES (27, 'Kolner');
+INSERT INTO Brand (`id`, `name`) VALUES (28, 'Makita');
+INSERT INTO Brand (`id`, `name`) VALUES (29, 'Maktec');
+INSERT INTO Brand (`id`, `name`) VALUES (30, 'Metabo');
+INSERT INTO Brand (`id`, `name`) VALUES (31, 'Military');
+INSERT INTO Brand (`id`, `name`) VALUES (32, 'Milwaukee');
+INSERT INTO Brand (`id`, `name`) VALUES (33, 'Molot');
+INSERT INTO Brand (`id`, `name`) VALUES (34, 'NIKKEY');
+INSERT INTO Brand (`id`, `name`) VALUES (35, 'Omax');
+INSERT INTO Brand (`id`, `name`) VALUES (36, 'P.I.T.');
+INSERT INTO Brand (`id`, `name`) VALUES (37, 'Patriot');
+INSERT INTO Brand (`id`, `name`) VALUES (38, 'Proxxon');
+INSERT INTO Brand (`id`, `name`) VALUES (39, 'RBT');
+INSERT INTO Brand (`id`, `name`) VALUES (40, 'Rebir');
+INSERT INTO Brand (`id`, `name`) VALUES (41, 'Rolsen');
+INSERT INTO Brand (`id`, `name`) VALUES (42, 'Rupes');
+INSERT INTO Brand (`id`, `name`) VALUES (43, 'Ryobi');
+INSERT INTO Brand (`id`, `name`) VALUES (44, 'Skil');
+INSERT INTO Brand (`id`, `name`) VALUES (45, 'Sparky');
+INSERT INTO Brand (`id`, `name`) VALUES (46, 'Spec');
+INSERT INTO Brand (`id`, `name`) VALUES (47, 'Stanley');
+INSERT INTO Brand (`id`, `name`) VALUES (48, 'Status');
+INSERT INTO Brand (`id`, `name`) VALUES (49, 'Stayer');
+INSERT INTO Brand (`id`, `name`) VALUES (50, 'STERN Austria');
+INSERT INTO Brand (`id`, `name`) VALUES (51, 'Stomer');
+INSERT INTO Brand (`id`, `name`) VALUES (52, 'Sturm');
+INSERT INTO Brand (`id`, `name`) VALUES (53, 'Tryton');
+INSERT INTO Brand (`id`, `name`) VALUES (54, 'Verto');
+INSERT INTO Brand (`id`, `name`) VALUES (55, 'Vulcan Concept');
+INSERT INTO Brand (`id`, `name`) VALUES (56, 'WATT');
+INSERT INTO Brand (`id`, `name`) VALUES (57, 'Werker');
+INSERT INTO Brand (`id`, `name`) VALUES (58, 'Wortex');
+INSERT INTO Brand (`id`, `name`) VALUES (59, 'Worx');
+INSERT INTO Brand (`id`, `name`) VALUES (60, 'Yato');
+INSERT INTO Brand (`id`, `name`) VALUES (61, 'Вихрь');
+INSERT INTO Brand (`id`, `name`) VALUES (62, 'ДИОЛД');
+INSERT INTO Brand (`id`, `name`) VALUES (63, 'Зубр');
+INSERT INTO Brand (`id`, `name`) VALUES (64, 'Интерскол');
+INSERT INTO Brand (`id`, `name`) VALUES (65, 'Калибр');
+INSERT INTO Brand (`id`, `name`) VALUES (66, 'Победа');
+INSERT INTO Brand (`id`, `name`) VALUES (67, 'Союз');
+INSERT INTO Brand (`id`, `name`) VALUES (68, 'Ставр');
+INSERT INTO Brand (`id`, `name`) VALUES (69, 'Фиолент');
+INSERT INTO Brand (`id`, `name`) VALUES (70, 'Энергомаш');
+INSERT INTO Brand (`id`, `name`) VALUES (71, 'Энкор');

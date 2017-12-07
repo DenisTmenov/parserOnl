@@ -24,7 +24,7 @@
 
 	<servlet>
 		<servlet-name>DbMigrator</servlet-name>
-		<servlet-class>com.denis.parserbackend.flyway.DbMigrator</servlet-class>
+		<servlet-class>com.denis.parserfrontend.flyway.DbMigrator</servlet-class>
 		<load-on-startup>2</load-on-startup>
 	</servlet>
 </web-app>

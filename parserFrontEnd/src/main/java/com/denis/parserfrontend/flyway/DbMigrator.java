@@ -13,6 +13,18 @@ public class DbMigrator extends HttpServlet {
 
 	@Override
 	public void init() throws ServletException {
+
+		/*
+		 * final ManagedDataSource dataSource = config.getDataSourceFactory().build(new
+		 * MetricRegistry(), "flyway-service"); final Flyway flyway = new Flyway();
+		 * flyway.setLocations(config.getFlywayFactory().getLocations().get(0));
+		 * flyway.setDataSource(dataSource); flyway.repair(); // flyway.migrate();
+		 * flyway.clean();
+		 * 
+		 * if (flyway.migrate() <= 0) { throw new RuntimeException("migration failed!");
+		 * }
+		 */
+
 		// Create the Flyway instance
 		Flyway flyway = new Flyway();
 

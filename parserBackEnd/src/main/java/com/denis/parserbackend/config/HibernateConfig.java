@@ -21,6 +21,7 @@ import com.denis.parserbackend.utils.PropertiesClass;
 @ComponentScan(basePackages = { "com.denis.parserbackend.dto" })
 @EnableTransactionManagement
 public class HibernateConfig {
+
 	private Properties properties;
 	private static String dbNameConfig;
 
@@ -98,4 +99,5 @@ public class HibernateConfig {
 		HibernateTransactionManager hibernateTransactionManager = new HibernateTransactionManager(sessionFactory);
 		return hibernateTransactionManager;
 	}
+
 }

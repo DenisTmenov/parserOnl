@@ -114,6 +114,13 @@
 			<artifactId>jcl-over-slf4j</artifactId>
 			<version>${jcl.over.slf4j.version}</version>
 		</dependency>
+		
+		<!-- Jsoap -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>${jsoap.version}</version>
+		</dependency>
 
 	</dependencies>
 
